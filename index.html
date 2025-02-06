@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>To Do List</h1>
+        <div id="enterBox"><form action=""><input type="text" id="data" placeholder="Enter..."><button type="submit" form="myForm" onclick="addItem()" id="b">Add</button></form></div>
+    </div>
+    <form action=""><input type="text" id="search" placeholder="Search"></form>
+    <ul>
+        <li class="names">Default<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+        <li class="names">Default 2<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+        <li class="names">Default 3<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+        <li class="names">Brit 3<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+        <li class="names">Stef 3<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+        <li class="names">Ice 3<button id="edt" onclick="editItem(this)">Edit</button><button id="dlt" onclick="deleteItem(this)">Delete</button></li>
+    </ul>
+
+    <p>Saved Data:</p>
+    <div id="d"></div>
+    <script src="main.js"></script>
+</body>
+</html>

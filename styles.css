@@ -1,0 +1,99 @@
+
+body{
+    background-color: white;
+}
+
+#heading{
+    border: 1px solid rgb(230, 18, 18);
+    width: 100%;
+    height: 250px;
+
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+
+    background: orange;
+}
+
+h1{
+    text-align: center;
+}
+
+div input#data{
+    width: 94.7%;
+    height: 35px;
+    cursor: crosshair;
+    border: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    cursor: crosshair;
+    height: 40px;
+    width: 50px;
+    transition: 0.2s;
+    /*border-radius: 5px;*/
+}
+
+button::hover{
+    color: aqua;
+}
+
+#enterBox{
+    border: 0px solid black;
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+#search{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+
+
+ul{
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
+
+/*items*/
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/*border-bottom does it*/
+
+/*delete button*/
+#dlt{
+    height: 20px;
+    background-color: red;
+    color: black;
+    align-items: flex-end;
+}
+
+/*edit button*/
+#edt{
+    margin-left: auto;
+    height: 20px;
+    background-color: green;
+    color: black;
+}
+
+
+/*savedData box*/
+#savedData{
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 50px;
+    width: 300px;
+    background-color: cyan;
+}
